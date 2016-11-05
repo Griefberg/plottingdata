@@ -19,11 +19,10 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from . import views
 
-
-urlpatterns = (
+urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home, name='home'),
     url(r'^plots/', include('plots.urls')),
     url(r'^contact/$', views.contact, name='contact'),
     url(r'^about/$', views.about, name='about')
-)
+]
