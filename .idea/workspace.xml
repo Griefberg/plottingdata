@@ -24,31 +24,11 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plottingdata/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="60">
               <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
                 <element signature="e#385#394#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings_secret.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings_secret.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -58,6 +38,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -493,14 +483,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plottingdata/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings_secret.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -509,17 +491,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plottingdata/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="60">
           <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="e#385#394#0" expanded="true" />
@@ -527,10 +509,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/plottingdata/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
