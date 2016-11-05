@@ -17,13 +17,12 @@ from django.conf.urls import include, url
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
-import plots.views
-import plottingdata.views
+from . import views
 
-urlpatterns = [
-    url(r'^$', plottingdata.views.index, name='index'),
-    url(r'^plots/', include('plots.urls')),
+urlpatterns = (
     url(r'^admin/', admin.site.urls),
-    url(r'^contact/$', plottingdata.views.contact, name='contact'),
-    url(r'^about/$', plottingdata.views.about, name='about')
-]
+    url(r'^$', views.index, name='index'),
+    url(r'^plots/', include('plots.urls')),
+    url(r'^contact/$', views.contact, name='contact'),
+    url(r'^about/$', views.about, name='about')
+)
