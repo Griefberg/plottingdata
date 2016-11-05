@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block head_title %}
+    Welcome | {{ block.super }}
+{% endblock %}
+
+<style>
+    {% block style %}
+        .navbar-static-top {
+            margin-bottom: 1px !important;
+            background-color: #282828;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #282828;
+            border-color: #282828;
+        }
+        .btn-primary > li > a:hover {
+            color:  lightslategrey;
+        }
+        .jumbotron {
+            background-color: lightslategrey;
+            color: white;
+        }
+        .jumbotron h1 {
+            font-weight: 100;
+        }
+    {%  endblock %}
+</style>
+
+
+
+
+{% block jumbotron %}
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>GM Experience</h1>
+
+                    <p>Listen to me. Follow me. Adore me.</p>
+
+                    <p align="left">
+                        <a class="btn btn-lg btn-primary" href="" role="button">Donate &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    {#                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zITKjQtAGsk" frameborder="0"#}
+                    {#                            allowfullscreen></iframe>#}
+                    <img src="https://pp.vk.me/c617427/v617427975/b945/lrK302f9JZc.jpg" class="img-responsive"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block content %}
+
+{% endblock %}
+
