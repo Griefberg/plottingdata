@@ -1,2 +1,4 @@
 settings_secret.py
 *.xlsx
+.idea/*
+*.pyc
