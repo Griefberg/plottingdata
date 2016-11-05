@@ -21,7 +21,7 @@ import plots.views
 import plottingdata.views
 
 urlpatterns = [
-    url(r'^$', plottingdata.views.index, name='index'),
+    url(r'^$', plottingdata.views.home, name='home'),
     url(r'^plots/', include('plots.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^contact/$', plottingdata.views.contact, name='contact'),

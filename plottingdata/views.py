@@ -11,5 +11,5 @@ def contact(request):
     return render(request, 'contact.html', {})
 
 
-def index(request):
-    return HttpResponse('Roma BALBES')
+def home(request):
+    return render(request, 'home.html', {})
