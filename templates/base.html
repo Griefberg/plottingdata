@@ -9,10 +9,13 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>{% block head_title %} MVP Landing {% endblock %}</title>
+    <title>{% block head_title %} Plotting Data {% endblock %}</title>
 
     {% include 'head_css.html' %}
     <style>
+        body{
+            background-color: #fcf9f9
+        }
         {% block style %}
 
         {%  endblock %}
@@ -21,6 +24,7 @@
 </head>
 
 <body>
+
 {% include 'navbar.html' %}
 
 {% block jumbotron %}
