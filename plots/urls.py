@@ -1,7 +1,7 @@
 from django.conf.urls import url
-from .views import HomeView
+from .views import FederalBudget
 
 
 urlpatterns = [
-    url(r'^$', HomeView.as_view(), name='home'),
+    url(r'^federalbudget$', FederalBudget.as_view(), name='federal_budget')
 ]
